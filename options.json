@@ -1,0 +1,17 @@
+{
+    "compile": {
+        "sameFolder": false,
+        "jsFolder": true,
+        "chooseFolder": {
+            "enabled": false,
+            "directory": "/Users/morris/Desktop/CoffeeGUITest/js"
+        }
+    },
+    "watch": {
+        "enabled": true,
+        "directory": "/Users/morris/Desktop/TypescriptGUITest/typescript"
+    },
+    "js": {
+        "minify": true
+    }
+}
