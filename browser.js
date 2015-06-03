@@ -64,7 +64,7 @@ holder.ondrop = function (e) {
 		if ( extension === '.ts' ) {
 			readTypeFile(file.path, dest, compileType);
 		} else {
-			changeInfoText("File was not a COFFEE file.");
+			changeInfoText("File was not a TypeScript file.");
 		};
 	} else if ( files.length > 1 ) {
 		var typeFiles = [];
